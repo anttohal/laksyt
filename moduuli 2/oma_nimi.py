@@ -2,4 +2,4 @@
 käyttäjä = input('Anna nimesi: ')
 
 # Tulostetaan tervehdys
-print(f"Hauska tavata, {käyttäjä}!")
+print(f"Terve, {käyttäjä}")
