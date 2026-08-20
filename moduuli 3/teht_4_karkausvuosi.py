@@ -1,5 +1,7 @@
+# Luetaan annettu vuosi
 vuosi = int(input('Anna vuosi: '))
 
+# Tarkistetaan ja tulostetaan onko vuosi karkausvuosi
 if vuosi % 100 == 0:
     if vuosi % 400 == 0:
         print(f"{vuosi} on karkausvuosi")

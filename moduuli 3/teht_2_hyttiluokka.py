@@ -1,5 +1,7 @@
+# Luetaan annettu luokka
 luokka = input('Anna luokka: ')
 
+# Tulostetaan syötettä vastaava vastaus
 if luokka == "LUX":
     print("LUX on parvekkeellinen hytti yläkannella.")
 elif luokka == "A":

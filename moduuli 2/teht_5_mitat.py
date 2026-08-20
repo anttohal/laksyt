@@ -1,5 +1,6 @@
 from math import floor
 
+# Luetaan syötteet mitoille
 leiviskät = float(input('Anna leiviskät. \n'))
 naulat = float(input('\nAnna naulat. \n'))
 luodit = float(input('\nAnna luodit. \n'))
@@ -13,5 +14,6 @@ luodit_grammoiksi = (luodit + naula_luodeiksi) * 13.3
 kilot = floor(luodit_grammoiksi * 0.001)
 grammat = (luodit_grammoiksi * 0.001 - kilot) * 1000
 
+# Tulosteet kiloille ja grammoille
 print("\nMassa nykymittojen mukaan:")
 print(f"{kilot} kilogrammaa ja {grammat:.2f} grammaa")

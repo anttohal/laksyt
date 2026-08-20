@@ -6,4 +6,5 @@ r = float(input('Anna ympyrän säde: '))
 # Laskutoimitukset
 A = math.pi * pow(r, 2)
 
+# Tulostetaan tulos
 print(f"Pinta-ala on {A:.2f}")

@@ -4,6 +4,7 @@ sukupuoli = input('(M)ies vai (n)ainen? ')
 # Kysyy hemoglobiiniarvoa
 hemo_arvo = int(input('Anna hemoglobiiniarvo (g/l): '))
 
+# Tulostetaan vastaus vastaavaan arvoon
 if sukupuoli == "nainen" or sukupuoli == "n":
     if hemo_arvo < 117:
         print("Hemoglobiiniarvosi on alhainen.")
