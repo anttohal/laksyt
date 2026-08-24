@@ -2,7 +2,7 @@
 minimi_pituus = 37
 
 # Syötetään saadun kuhan pituus
-pituus = float(input('Anna pituus: '))
+pituus = float(input('Anna kuhan pituus: '))
 
 # Tulostetaan jos pituus ei vastaa minimiä
 if pituus < minimi_pituus:
