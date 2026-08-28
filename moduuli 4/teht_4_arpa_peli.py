@@ -11,4 +11,5 @@ while luku != arvattava_luku:
     if luku > arvattava_luku:
         print("Liian suuri arvaus")
     luku = int(input('Anna luku: '))
+print("")
 print("Oikein!")

@@ -11,6 +11,8 @@ while luku != "":
         suurin = float(luku)
     luku = input('Anna luku: ')
 
+print("")
+
 # Tulostetaan Luvut
 print(f"Pienin luku: {pienin:.2f}")
 print(f"Suurin luku: {suurin:.2f}")

@@ -9,6 +9,7 @@ while arvo != "":
 # Järjestää listan suurimmasta alkaen
 lista.sort(reverse=True)
 
-# Tulostaa listan
 print("")
-print(lista[0:5])
+
+# Tulostaa listan
+print(lista[0:min(len(lista), 5)])

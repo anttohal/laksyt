@@ -15,5 +15,7 @@ while kerrat < maara:
         maara_ympyrassa += 1
     kerrat += 1
 
+print("")
+
 # Laskee ja tulostaa likiarvon
 print(f"Pii: {4 * maara_ympyrassa / maara}")
