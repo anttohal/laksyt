@@ -22,8 +22,10 @@ pizza_2 = pizzanhinta()
 print("")
 if pizza_1 < pizza_2:
     print("Pizza 1:n hinta suhde on parempi!")
-else:
+elif pizza_1 > pizza_2:
     print("Pizza 2:n hinta suhde on parempi!")
+else:
+    print("Molemmilla pizzoilla on sama hinta suhde.")
 print("")
 print(f"Pizza #1 yksikköhinta: {pizza_1:.2f}€")
 print(f"Pizza #2 yksikköhinta: {pizza_2:.2f}€")
