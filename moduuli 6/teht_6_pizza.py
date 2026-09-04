@@ -9,8 +9,6 @@ def pizzanhinta():
     pizza_hinta = float(input("Anna hinta (€): "))
     return yksikkohinta(pizza_halkaisija, pizza_hinta)
 
-
-
 pizza_1 = pizzanhinta()
 pizza_2 = pizzanhinta()
 

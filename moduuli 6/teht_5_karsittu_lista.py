@@ -1,10 +1,10 @@
 def listan_karsinta(annettu_lista: list[int]):
-    lista = []
+    uusi_lista = []
     for num in annettu_lista:
         if num % 2 == 0:
-            lista.append(num)
-    return lista
+            uusi_lista.append(num)
+    return uusi_lista
 
-lista = [221,45,76,49,11,46,2,21,3,41,14,55,707,9]
+lista = [1,2,3,4,5,6,7]
 print(f"Alkuperäinen: {lista}")
 print(f"Karsittu: {listan_karsinta(lista)}")

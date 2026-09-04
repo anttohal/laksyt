@@ -1,8 +1,8 @@
-def summaus(lista: list[int]):
+def summaus(annettu_lista: list[int]):
     summa = 0
-    for num in lista:
+    for num in annettu_lista:
         summa += num
     return summa
 
-lista = [22,45,76,49,11,46,2,21,3,41,14,55,70,9]
+lista = [1,2,3,4,5]
 print(f"Listan summa: {summaus(lista)}")
