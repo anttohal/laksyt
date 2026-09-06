@@ -2,6 +2,7 @@
 nimet = set()
 
 # Kysy nimiä ja lisää ne joukkoon, kunnes annetaan tyhjä merkkijono
+
 nimi = input('Anna nimi: ')
 while nimi != "":
     # Tulostetaan onko nimi joukossa

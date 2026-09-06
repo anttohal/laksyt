@@ -8,6 +8,7 @@ def kentan_haku():
         print(f"{kenttakoodi}: {lentokentat[kenttakoodi]}")
 
 # Kysytään ja tallennetaan lentokenttä ja sen ICAO-koodi
+
 def kentan_syote():
     kentta = input('Anna kentta: ')
     koodi = input('Anna koodi: ')
