@@ -1,5 +1,5 @@
 import mysql.connector
-from geopy.distance import great_circle
+from geopy.distance import geodesic
 
 yhteys = mysql.connector.connect(
     host='127.0.0.1',
@@ -24,4 +24,4 @@ kentta1 = tulos[0]
 kentta2 = tulos[1]
 sijainti1 = kentta1[1:]
 sijainti2 = kentta2[1:]
-print(f"\nKenttien {kentta1[0]} ja {kentta2[0]} etäisyys on noin {great_circle(sijainti1, sijainti2).km:.2f} km")
+print(f"\nKenttien {kentta1[0]} ja {kentta2[0]} etäisyys on noin {geodesic(sijainti1, sijainti2).km:.2f} km")
