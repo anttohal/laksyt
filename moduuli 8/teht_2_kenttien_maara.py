@@ -12,7 +12,7 @@ yhteys = mysql.connector.connect(
 
 # Kyselyn määrittely ja suoritus
 koodi = input("Anna maakoodi: ")
-sql = f"select count(name) from airport where iso_country = '{koodi}'"
+sql = f"select count(type) from airport where iso_country = '{koodi} group by type'"
 kursori = yhteys.cursor()
 kursori.execute(sql)
 
