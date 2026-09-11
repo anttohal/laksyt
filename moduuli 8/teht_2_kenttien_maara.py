@@ -12,10 +12,13 @@ yhteys = mysql.connector.connect(
 
 # Kyselyn määrittely ja suoritus
 koodi = input("Anna maakoodi: ")
-sql = f"select count(type) from airport where iso_country = '{koodi} group by type'"
+sql = f"select type, count(type) from airport where iso_country = '{koodi}' group by type"
 kursori = yhteys.cursor()
 kursori.execute(sql)
 
 # Haetaan ja käsitellään tulokset
-tulos = kursori.fetchall()[0]
-print(f"\nMaan ({koodi}) kenttien määrä: {tulos[0]}")
+tulos = kursori.fetchall()
+print(f"\nMaan ({koodi}) kenttätyypit/määrät:")
+print()
+for osa in tulos:
+    print(f"{osa[0]}: {osa[1]}")
