@@ -1,7 +1,7 @@
 import requests
 
 paikkakunta = input("Anna paikkakunta: ")
-pyyntö = f"https://api.openweathermap.org/data/2.5/weather?q={paikkakunta}&appid=b7b3b6f35fd372947733915bcdf0730c&units=metric"
+pyyntö = f"https://api.openweathermap.org/data/2.5/weather?q={paikkakunta}&appid={API-KEY}&units=metric"
 vastaus = requests.get(pyyntö).json()
 
 print()
