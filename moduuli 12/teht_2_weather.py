@@ -12,5 +12,5 @@ while len(paikkakunta) > 0:
     print(f"Municipality: {vastaus['name']}")
     print(f"Weather: {vastaus['weather'][0]['description']}")
     print(f"Temperature: {vastaus['main']['temp']:.0f}°C")
-    print()
+
     paikkakunta = input("Anna paikkakunta: ")
